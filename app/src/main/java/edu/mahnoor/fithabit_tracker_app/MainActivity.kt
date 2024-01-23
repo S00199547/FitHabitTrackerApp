@@ -12,8 +12,5 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun startWalkingChallenge(view: View) {
-        val intent = Intent(this, activity_daily_steps::class.java)
-        startActivity(intent)
-    }
+
 }
