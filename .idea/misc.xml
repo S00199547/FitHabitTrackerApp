@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_daily_steps.xml" value="0.25" />
+        <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_dasboard_main.xml" value="0.25" />
+        <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_fitness_challenges.xml" value="0.264" />
         <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_history.xml" value="0.264" />
         <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_record.xml" value="0.25" />
+        <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/activity_weight_goal.xml" value="0.2" />
+        <entry key="..\:/Users/35389/Desktop/PJ4002023/New folder/app/src/main/res/layout/fragment_fitness_challenge.xml" value="0.16458333333333333" />
       </map>
     </option>
   </component>

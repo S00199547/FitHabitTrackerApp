@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5E5A5A"
+    tools:context=".Weight_goal_Activity">
+
+    <TextView
+        android:id="@+id/tvCurrentWeight"
+        android:layout_width="204dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/etUpdateWeight"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/tvCurrentWeight"
+        android:hint="Enter New Weight (kg)"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/btnUpdateWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUpdateWeight"
+        android:layout_centerHorizontal="true"
+        android:text="Update Weight"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

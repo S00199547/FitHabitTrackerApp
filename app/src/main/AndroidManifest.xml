@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitHabitTrackerApp">
         <activity
+            android:name=".Weight_goal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".FitnessChallengesActivity"
             android:exported="false" />
         <activity
@@ -21,15 +33,6 @@
         <activity
             android:name=".activity_daily_steps"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
